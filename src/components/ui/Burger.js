@@ -1,9 +1,9 @@
-import Logo from "../images/logo/Logo.svg";
+import React from "react";
+import styled from "styled-components";
 
-const Nav = () => {
+const Burger = ({ onClick }) => {
   return (
-    <div className="nav">
-      <img src={Logo} alt="logo quai antique" style={{ maxHeight: "50px" }} />
+    <BurgerButton onClick={onClick}>
       <svg
         width="50"
         height="50"
@@ -24,8 +24,12 @@ const Nav = () => {
           </clipPath>
         </defs>
       </svg>
-    </div>
+    </BurgerButton>
   );
 };
 
-export default Nav;
+const BurgerButton = styled.div`
+  cursor: pointer;
+`;
+
+export default Burger;
