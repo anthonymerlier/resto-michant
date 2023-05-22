@@ -32,11 +32,13 @@ const Container = styled.div`
   margin: 70px auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
   padding: 30px;
 
   h2 {
-    margin: 30px 0;
+    margin: 20px 0;
+    font-size: 2.2rem;
+    font-weight: 500;
   }
 
   p {

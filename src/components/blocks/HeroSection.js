@@ -39,7 +39,7 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-  padding: 100px 30px;
+  padding: 100px 30px 160px 30px;
   max-width: 1250px;
   margin: auto;
   width: auto;
@@ -60,6 +60,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-family: "Montserrat";
   font-weight: bold;
+  font-size: 3rem;
   line-height: 1.35;
 `;
 
