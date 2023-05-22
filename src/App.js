@@ -6,6 +6,9 @@ import Navigation from "./components/ui/Navigation";
 import AboutUs from "./components/blocks/AboutUs";
 import QuoteBlock from "./components/blocks/QuoteBlock";
 import MenuBlock from "./components/blocks/MenuBlock";
+import MasterchefBlock from "./components/blocks/MasterchefBlock";
+import GalleryBlock from "./components/blocks/GalleryBlock";
+import ContactUs from "./components/blocks/ContactUs";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -19,6 +22,9 @@ function App() {
           <AboutUs />
           <QuoteBlock />
           <MenuBlock />
+          <MasterchefBlock />
+          <GalleryBlock />
+          <ContactUs />
         </>
       ) : (
         <Navigation onClick={() => setOpen(!open)} />

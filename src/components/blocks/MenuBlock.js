@@ -123,7 +123,7 @@ const MaindishContainer = styled.div`
   width: 440px;
   z-index: 100;
   padding: 20px;
-  margin: 0 auto;
+  margin: 20px auto;
 
   @media (max-width: 768px) {
     width: auto;
@@ -143,6 +143,7 @@ const BackgroundImage = styled.div`
 
   @media (max-width: 768px) {
       width: 100%;
+      height: 100%;
   }
 `;
 
