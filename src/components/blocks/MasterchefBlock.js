@@ -22,17 +22,21 @@ const MasterchefBlock = () => {
         <Content>
           <h2>Notre Chef</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
-            feugiat massa, et condimentum nunc. Praesent consectetur lorem in
-            efficitur dictum. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia curae; Sed lobortis egestas
-            cursus. Vestibulum faucibus molestie est, ac efficitur ex
-            ullamcorper a.
+            Notre chef du Quai Antique est un talentueux créateur culinaire
+            reconnu pour son savoir-faire et sa passion pour la gastronomie.
+            Fort de nombreuses années d'expérience dans les cuisines les plus
+            prestigieuses, notre chef apporte un savoir unique à la préparation
+            de chaque plat et s'efforce de créer des expériences culinaires
+            inoubliables pour nos clients.
           </p>
           <p>
-            Phasellus eleifend nisl et sollicitudin ultrices. Curabitur pulvinar
-            ac lacus pellentesque pulvinar. Nullam eget nibh tempus, semper diam
-            consequat, aliquet velit. Quisque viverra ultricies finibus.{" "}
+            Il sélectionne avec soin les meilleurs ingrédients locaux et les
+            plus frais pour créer des plats uniques et raffinés qui raviront les
+            palais les plus exigeants. Chez Quai Antique, notre chef est le cœur
+            et l'âme de notre restaurant, apportant une touche personnelle à
+            chaque plat et créant une expérience culinaire mémorable pour chaque
+            client. Nous sommes fiers de vous présenter notre chef et de
+            partager son talent avec vous.
           </p>
           <div
             style={{

@@ -5,22 +5,27 @@ const AboutUs = () => {
   return (
     <div>
       <Container>
-        <h2>About Us</h2>
+        <h2>A propos de nous</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio
-          purus, viverra in euismod eu, molestie non dui. Duis tempor velit non
-          leo iaculis, convallis volutpat leo semper. Donec molestie turpis sed
-          consectetur ultricies. Sed semper posuere facilisis. Phasellus et
-          sagittis eros. Pellentesque feugiat mauris dolor, sit amet pharetra
-          tortor feugiat a.
+          Bienvenue au Quai Antique, un restaurant gastronomique situé dans le
+          cœur de la ville. Notre restaurant est fier de proposer une expérience
+          culinaire exceptionnelle, offrant une atmosphère chaleureuse et
+          accueillante pour tous les convives. Notre menu est composé d'une
+          variété de plats gastronomiques, préparés avec les ingrédients les
+          plus frais et les plus savoureux.
         </p>
         <p>
-          Nam eu viverra ante. Pellentesque in felis massa. Vivamus non risus
-          turpis. Integer in congue lacus, ut sodales est. Pellentesque sed dui
-          non nulla laoreet efficitur. Sed lobortis sagittis velit, in
-          vestibulum ex cursus eu. Integer consectetur, ipsum venenatis placerat
-          tincidunt, mauris dolor volutpat felis, eu blandit velit metus non
-          ipsum. Morbi id dolor sit amet nibh accumsan convallis et at est.
+          Au-delà de notre passion pour la nourriture, nous sommes également
+          passionnés par l'hospitalité et le service à la clientèle. Notre
+          équipe de professionnels expérimentés s'efforce toujours de fournir un
+          service personnalisé et attentionné pour garantir que chaque client a
+          un moment mémorable et satisfaisant.
+        </p>
+        <p>
+          Notre restaurant est conçu pour offrir une expérience intime et
+          confortable, idéale pour les occasions spéciales ou les dîners en
+          groupe. Nous avons hâte de vous accueillir au Quai Antique pour une
+          expérience culinaire exceptionnelle et inoubliable.
         </p>
       </Container>
     </div>

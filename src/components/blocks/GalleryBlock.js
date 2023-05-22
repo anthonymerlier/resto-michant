@@ -8,11 +8,9 @@ const GalleryBlock = () => {
       <Container>
         <h2 style={{ fontSize: "2.2rem", fontWeight: "500" }}>Notre galerie</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
-          feugiat massa, et condimentum nunc. Praesent consectetur lorem in
-          efficitur dictum. Vestibulum ante ipsum primis in faucibus orci luctus
-          et ultrices posuere cubilia curae; Sed lobortis egestas cursus.
-          Vestibulum faucibus molestie est, ac efficitur ex ullamcorper a.
+          Découvrez en images l'ambiance chaleureuse et conviviale de notre
+          restaurant ainsi que quelques-unes de nos créations culinaires les
+          plus appréciées.
         </p>
       </Container>
       <Carousel />

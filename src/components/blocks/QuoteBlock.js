@@ -6,8 +6,8 @@ const QuoteBlock = () => {
   return (
     <Layout>
       <CItation className="primaryColor">
-        A good restaurant is like a vacation; it transports you, and it becomes
-        a lot more than just about the food.
+        Un bon restaurant est comme des vacances ; il vous transporte et devient
+        bien plus que simplement la nourriture.
       </CItation>
       <Writer className="primaryColor">Philip Rosenthal</Writer>
     </Layout>
