@@ -55,12 +55,16 @@ const Container = styled.div`
   .image {
     text-align: right;
     padding-right: 40px;
+    @media (max-width: 768px) {
+      text-align: left;
+    }
   }
 
   img {
     padding: 40px;
     max-height: 550px;
     max-width: 250px;
+    width: 100%;
   }
 `;
 
@@ -77,6 +81,9 @@ const Wrapper = styled.div`
   > * {
     width: 50%;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Content = styled.div`
@@ -85,6 +92,10 @@ const Content = styled.div`
   & > * {
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
   }
 `;
 
